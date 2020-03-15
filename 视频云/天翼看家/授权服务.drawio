@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-03-15T05:12:55.606Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="c-Av4GtzChvw_gYBmrH0" version="12.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-15T05:36:32.509Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="AF8ULn7YA1kybzx49yHN" version="12.8.5" type="github">
   <diagram id="iY2sE6skd7WF5RvVRHLC" name="第 1 页">
     <mxGraphModel dx="889" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JlYhUy0kMLDr1YmaYAZP-16" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="JlYhUy0kMLDr1YmaYAZP-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="130" width="480" height="340" as="geometry" />
         </mxCell>
         <mxCell id="JlYhUy0kMLDr1YmaYAZP-9" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container: tidb]&lt;/div&gt;&lt;br&gt;&lt;div&gt;用户数据&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#0050ef;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#001DBC;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
