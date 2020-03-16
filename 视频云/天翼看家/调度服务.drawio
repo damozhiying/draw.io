@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-16T03:53:38.078Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="4EzIf0dZOD76-5CkJ6ZD" version="12.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-16T03:58:35.548Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="95ZzaKqcwbzQgmdJF7Gu" version="12.8.5" type="github">
   <diagram id="YbJOm5tBQaA_1KeSzeNw" name="第 1 页">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="GyoArOFM3hI2Chsj1lRG-2" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container: tidb]&lt;/div&gt;&lt;br&gt;&lt;div&gt;流媒体服务配置及状态数据&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#0050ef;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#001DBC;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
           <mxGeometry x="280" y="340" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GyoArOFM3hI2Chsj1lRG-3" value="&lt;b&gt;调度服务(ctyun-vs-schedule)&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;java and spring boot ，spring mvc&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;认证授权，token校验&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#0050ef;align=center;arcSize=10;strokeColor=#001DBC;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GyoArOFM3hI2Chsj1lRG-3" value="&lt;b&gt;调度服务(ctyun-vs-schedule)&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;java and spring boot ，spring mvc&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;流媒体服务配置，计算，metrics存储&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#0050ef;align=center;arcSize=10;strokeColor=#001DBC;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="160" height="110.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="GyoArOFM3hI2Chsj1lRG-4" value="&lt;b&gt;调用方&lt;/b&gt;&lt;br&gt;&lt;div&gt;[终端或前端应用]&lt;/div&gt;&lt;br&gt;&lt;div&gt;调用方&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#d80073;strokeColor=#A50040;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];fontColor=#ffffff;" vertex="1" parent="1">
@@ -55,10 +55,10 @@
             <mxPoint x="630" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GyoArOFM3hI2Chsj1lRG-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;获取存储配置信息&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left ; letter-spacing: 0.12px&quot;&gt;&lt;font color=&quot;#404040&quot; style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;v1/schedule/{id}/metrics&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[JSON/HTTP]&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GyoArOFM3hI2Chsj1lRG-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;获取存储配置信息&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left ; letter-spacing: 0.12px&quot;&gt;&lt;font color=&quot;#404040&quot; style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;v1/schedule/{uid}.....&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[JSON/HTTP]&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="200" relative="1" as="geometry">
             <mxPoint x="654" y="205" as="sourcePoint" />
-            <mxPoint x="424" y="205" as="targetPoint" />
+            <mxPoint x="430" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
